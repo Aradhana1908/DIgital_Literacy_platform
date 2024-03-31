@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(6, 6, 85, 0.8), rgba(8, 8, 89, 0.8)), url("loginpage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 15px;
+    color: white;
+    font-size: 25pt;
+    padding: 20px;
+
+}
+
+.formbox {
+    text-decoration-line: inherit;
+    margin-top: 100px;
+    width: 300px;
+    height: 350px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 14px;
+    position: relative;
+}
+
+#name {
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 25px;
+}
+
+#email,
+#password {
+    margin-top: 270px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 25px;
+    
+}
+
+#button {
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(41, 41, 184);
+    color: white;
+}
+
+.main input::placeholder {
+    color: white;
+}
+
+.main,
+.container {
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.main::i {
+    position: absolute;
+    left: 5px;
+}
